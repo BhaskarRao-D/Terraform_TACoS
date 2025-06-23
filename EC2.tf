@@ -1,8 +1,8 @@
 provider "aws" {
-region = "us-east-1"
+  region = "us-east-1"
 }
 
-resource "aws_instance" "Testing" {
-ami = "ami-09e6f87a47903347c"
-instance_type = "t2.micro"
+resource "aws_instance" "testing" {
+  ami           = "ami-09e6f87a47903347c"
+  instance_type = "t2.micro"
 }
