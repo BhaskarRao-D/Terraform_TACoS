@@ -7,6 +7,8 @@ Step - 2: Create a GitHub Repo, and create Runner by moving it into Settings -->
 
 Step - 3: Create and Store secrets by moving it into Settings --> Security -- Secrets & Variables --> Actions.
 
-Step - 4: 
+Step - 4: Implement the code and push to the GitHub Repo before pushing the code into the repo make sure we have to install few commands those commands github will provide after creating self-hosted runner.
+
+Step - 5: After Installing commands we have to run the command called ./run.sh before that we have to push the code into Gitlab repo.
 
 
