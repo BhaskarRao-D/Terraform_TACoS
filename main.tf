@@ -3,7 +3,7 @@ provider "aws" {
   profile = "default"
 }
 
-resource "aws_instance" "testing" {
+resource "aws_instance" "Testing_Automation" {
   ami           = "ami-0150ccaf51ab55a51"
   instance_type = "t2.micro"
 }
